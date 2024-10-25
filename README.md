@@ -1,2 +1,2 @@
-# diplomovka
+# Uniza AV Studio
 Webstránka a rezervačný systém pre výpožičku AV techniky v rámci Žilinskej Univerzity
