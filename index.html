@@ -8,7 +8,66 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning fs-5 ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/logo.svg" style="width:380px;" alt="uniza logo" ></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active text-white ms-3 " aria-current="page" href="#">O nás</a>
+            <a class="nav-link active text-white ms-3 " aria-current="page"  href="#">Rezervácia techniky</a>
+          </div>
+          <!-- Položky napravo -->
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active text-white ms-3 " href="#"  tabindex="-1" aria-disabled="true">Prihlásenie</a>
+            <a class="nav-link active text-white ms-3 " href="#"  tabindex="-1" aria-disabled="true">Registrácia</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  
+    <div id="customCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="images/carrousel/carrousel_1.jpg" class="d-block w-100" alt="Image 1">
+          </div>
+          <div class="carousel-item">
+              <img src="images/carrousel/carrousel_2.jpg" class="d-block w-100" alt="Image 2">
+          </div>
+          <div class="carousel-item">
+              <img src="images/carrousel/carrousel_3.jpg" class="d-block w-100" alt="Image 3">
+          </div>
+          <div class="carousel-item">
+            <img src="images/carrousel/carrousel_4.jpg" class="d-block w-100" alt="Image 4">
+          </div>
+          <div class="carousel-item">
+              <img src="images/carrousel/carrousel_5.jpg" class="d-block w-100" alt="Image 5">
+          </div>
+          <div class="carousel-item">
+            <img src="images/carrousel/carrousel_6.jpg" class="d-block w-100" alt="Image 6">
+          </div>
+          <div class="carousel-item">
+              <img src="images/carrousel/carrousel_7.jpg" class="d-block w-100" alt="Image 7">
+          </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#customCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#customCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+  <main>
     <h1>Obsah stránky</h1>
+  </main>
+  <footer class="bg-warning text-center py-4">
+    © Faculty of Electrical Engineering and Information Technology. All rights reserved.
+  </footer>
+
   <!-- bootstrap.bundle.min.js verzia 5.2   -->
   <script src="js/bootstrap.bundle.min.js"></script>
   </body>

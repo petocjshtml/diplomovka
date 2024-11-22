@@ -1,0 +1,11 @@
+.bg-warning {
+    background-color: #f37429 !important;
+    color: #fff !important; /* Zabezpečí dobrý kontrast s oranžovým pozadím */
+  }
+
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+  
